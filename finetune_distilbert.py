@@ -8,13 +8,8 @@ from time import time
 import matplotlib.pyplot as plt
 import pandas as pd
 import tensorflow as tf
-from sklearn.metrics import (
-    accuracy_score,
-    classification_report,
-    f1_score,
-    roc_auc_score,
-    roc_curve,
-)
+from sklearn.metrics import (accuracy_score, classification_report, f1_score,
+                             roc_auc_score, roc_curve)
 from sklearn.model_selection import train_test_split
 from transformers import DistilBertTokenizerFast
 

@@ -8,7 +8,6 @@ import string
 from pathlib import Path
 
 import numpy as np
-import pandas as pd
 import tensorflow as tf
 import wordninja
 from bs4 import BeautifulSoup
